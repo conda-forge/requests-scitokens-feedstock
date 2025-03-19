@@ -1,5 +1,5 @@
 {% set name = "requests-scitokens" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 {% set python_min = python_min|default('0.1a0') %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/r/requests-scitokens/requests_scitokens-{{ version }}.tar.gz
-  sha256: 7ba60108263e884f63f0a0b6c39db40a7a548dc5a0ed0a9cfe980c5dc220d64d
+  sha256: 99eb2b53de310a694a3d2040ebc580d8fa2938706bba7886db356e6c8fe1bcbe
 
 build:
   noarch: python
